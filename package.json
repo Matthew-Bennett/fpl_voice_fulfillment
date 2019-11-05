@@ -1,0 +1,36 @@
+{
+  "name": "fpl_voice_fulfillment",
+  "version": "0.0.1",
+  "description": "A fulfillment API for a Fantasy Premier League action on Google Assistant.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthew-Bennett/fpl_voice_fulfillment.git"
+  },
+  "keywords": [
+    "google",
+    "assistant",
+    "voice",
+    "action",
+    "fulfillment",
+    "fantasy",
+    "premier",
+    "league"
+  ],
+  "author": "Matthew Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matthew-Bennett/fpl_voice_fulfillment/issues"
+  },
+  "homepage": "https://github.com/Matthew-Bennett/fpl_voice_fulfillment#readme",
+  "dependencies": {
+    "actions-on-google": "^2.12.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
